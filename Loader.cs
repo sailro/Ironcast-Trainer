@@ -7,7 +7,19 @@ namespace Ironcast.Trainer
 
 		public static GameObject HookObject
 		{
-			get { return GameObject.Find("DialogUIController"); }
+			get
+			{
+				var result = GameObject.Find("DialogUIController");
+				return result ?? new GameObject();
+			}
+		}
+
+		public static TrainerBehaviour Trainer
+		{
+			get
+			{
+				return HookObject.GetComponent<TrainerBehaviour>();
+			}
 		}
 
 		public static void Load()
@@ -17,10 +29,9 @@ namespace Ironcast.Trainer
 
 		public static void Unload()
 		{
-			var component = HookObject.GetComponent<TrainerBehaviour>();
-			if (component != null)
-				Object.DestroyImmediate(component);
+			var trainer = Trainer;
+			if (trainer != null)
+				Object.DestroyImmediate(trainer);
 		}
-
 	}
 }
