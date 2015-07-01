@@ -24,7 +24,7 @@ namespace Ironcast.Trainer
 
 		public static void Load()
 		{
-            HookObject.AddComponent<TrainerBehaviour>();
+			HookObject.AddComponent<TrainerBehaviour>();
 		}
 
 		public static void Unload()
