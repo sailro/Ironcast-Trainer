@@ -14,6 +14,8 @@ namespace Ironcast.Trainer
 			_actions.Clear();
 			_actions.Add(KeyCode.KeypadMinus, () => PlayerCampaignData.Instance.CurrentScrap -= 1000);
 			_actions.Add(KeyCode.KeypadPlus, () => PlayerCampaignData.Instance.CurrentScrap += 1000);
+			_actions.Add(KeyCode.KeypadDivide, () => PlayerCampaignData.Instance.CurrentWarAssets -= 100);
+			_actions.Add(KeyCode.KeypadMultiply, () => PlayerCampaignData.Instance.CurrentWarAssets += 100);
 		}
 
 		void Update()
