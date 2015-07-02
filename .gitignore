@@ -210,4 +210,5 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
-/libs
+/libs/UnityEngine.dll
+/libs/Assembly-CSharp.dll
