@@ -1,7 +1,7 @@
 # Ironcast-Trainer
 
 This is an attempt -for educational purposes only- to alter a Unity game at runtime without patching the binaries (so without using [Cecil](https://github.com/jbevain/cecil) nor [Reflexil](https://github.com/sailro/reflexil)).
-To achieve that, we use [mono-assembly-injector](https://github.com/gamebooster/mono-assembly-injector), able to:
+To achieve that, we use [SharpMonoInjector](https://github.com/warbler/SharpMonoInjector), able to:
 - dynamically attach to a process
 - call suitable methods to load an assembly in the Game AppDomain
 - call managed methods in the assembly.
