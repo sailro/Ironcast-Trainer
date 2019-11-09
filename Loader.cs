@@ -9,8 +9,14 @@ namespace Ironcast.Trainer
 		{
 			get
 			{
-				var result = GameObject.Find("DialogUIController");
-				return result ?? new GameObject();
+				var result = GameObject.Find("Trainer");
+				if (result == null)
+				{
+					result = new GameObject("");
+					Object.DontDestroyOnLoad(result);
+				}
+
+				return result;
 			}
 		}
 
@@ -29,9 +35,8 @@ namespace Ironcast.Trainer
 
 		public static void Unload()
 		{
-			var trainer = Trainer;
-			if (trainer != null)
-				Object.DestroyImmediate(trainer);
+			Object.DestroyImmediate(Trainer);
+			Object.DestroyImmediate(HookObject);
 		}
 	}
 }
