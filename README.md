@@ -13,10 +13,10 @@ How to use the trainer:
 - When you are in the hangar, go back to the desktop
 - Run load.bat to inject the trainer into the process (you do not need to copy files in a specific location).
 - Use keypad + - to add/remove 1000 scraps
-- Use keypad * / to add/remove 100 war assets
+- Use keypad * / to add/remove 1000 war assets
+- Use keypad . to add 5000 xp
+- Use keypad 0 to fill health/ammo/coolant/energy/repair
 - Run unload.bat to disable the trainer.
-
-This is just a demo, so if you start a battle and go back to the Hangar, the trainer will not be active anymore. (but you will keep scraps and war assets).
 
 You can compile everything or simply use the [demo release](https://github.com/sailro/Ironcast-Trainer/releases).
 
