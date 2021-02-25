@@ -9,12 +9,12 @@ namespace Ironcast.Trainer
 		{
 			get
 			{
-				var result = GameObject.Find("Trainer");
-				if (result == null)
-				{
-					result = new GameObject("");
-					Object.DontDestroyOnLoad(result);
-				}
+				var result = GameObject.Find(typeof(Loader).FullName);
+				if (result != null) 
+					return result;
+
+				result = new GameObject(typeof(Loader).FullName);
+				Object.DontDestroyOnLoad(result);
 
 				return result;
 			}
