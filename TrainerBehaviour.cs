@@ -35,5 +35,11 @@ namespace Ironcast.Trainer
 					_actions[keyCode]();
 			}
 		}
+
+		void OnGUI()
+		{
+			var display = "Trainer loaded ! Use Keypad keys [-+] for -/+ scraps, [/*] for -/+ assets, [.] for more XP, [0] for max health/ammo/coolant/energy/repair";
+			Render.DrawString(new Vector2(512, Screen.height - 16f), display, Color.white);
+		}
 	}
 }

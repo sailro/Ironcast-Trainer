@@ -212,3 +212,5 @@ _Pvt_Extensions/
 ModelManifest.xml
 /libs/UnityEngine.dll
 /libs/Assembly-CSharp.dll
+trainer/
+trainer.zip
