@@ -21,3 +21,5 @@ How to use the trainer:
 You can compile everything or simply use the [demo release](https://github.com/sailro/Ironcast-Trainer/releases).
 
 Have fun !
+
+![trainer](https://github.com/sailro/Ironcast-Trainer/assets/638167/2c659790-8a1a-4987-9376-949621e8d636)
