@@ -1,2 +1,2 @@
 @echo off
-smi inject -p ironcast -a Ironcast.Trainer.dll -n Ironcast.Trainer -c Loader -m Load
+smi inject -p ironcast -a TrainerKit.dll -n TrainerKit -c Context -m Load

@@ -1,25 +1,19 @@
 # Ironcast-Trainer
 
-This is an attempt -for educational purposes only- to alter a Unity game at runtime without patching the binaries (so without using [Cecil](https://github.com/jbevain/cecil) nor [Reflexil](https://github.com/sailro/reflexil)).
-To achieve that, we use [SharpMonoInjector](https://github.com/warbler/SharpMonoInjector), able to:
-- dynamically attach to a process
-- call suitable methods to load an assembly in the Game AppDomain
-- call managed methods in the assembly.
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github&style=flat-square)](https://github.com/sponsors/sailro)
 
-So we have a very simple trainer for the excellent [IronCast](http://store.steampowered.com/app/327670/) game. 
+A very simple trainer for the excellent [IronCast](http://store.steampowered.com/app/327670/) game.
+This trainer was built using [TrainerKit](https://github.com/sailro/TrainerKit)
 
 How to use the trainer:
-- Start a new game 
-- When you are in the hangar, go back to the desktop
 - Run load.bat to inject the trainer into the process (you do not need to copy files in a specific location).
-- Use keypad + - to add/remove 1000 scraps
-- Use keypad * / to add/remove 1000 war assets
+- Use keypad + to add 1000 scraps
+- Use keypad * to add 1000 war assets
 - Use keypad . to add 10000 xp
-- Use keypad 0 to fill health/ammo/coolant/energy/repair
-- Run unload.bat to disable the trainer.
+- By default health/ammo/coolant/energy/repair will be set to the maximum
 
 You can compile everything or simply use the [demo release](https://github.com/sailro/Ironcast-Trainer/releases).
 
 Have fun !
 
-![trainer](https://github.com/sailro/Ironcast-Trainer/assets/638167/2c659790-8a1a-4987-9376-949621e8d636)
+![trainer](.\media\screenshot.png)
