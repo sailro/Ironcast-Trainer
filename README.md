@@ -16,4 +16,4 @@ You can compile everything or simply use the [demo release](https://github.com/s
 
 Have fun !
 
-![trainer](.\media\screenshot.png)
+![trainer](./media/screenshot.png)
