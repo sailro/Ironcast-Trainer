@@ -10,7 +10,7 @@ internal class GetWarAssets : TriggerFeature
 	public override string Name => Strings.FeatureGetWarAssetsName;
 	public override string Description => Strings.FeatureGetWarAssetsDescription;
 
-	[ConfigurationProperty(Order = 0)] 
+	[ConfigurationProperty(Order = 0)]
 	public override KeyCode Key { get; set; } = KeyCode.KeypadMultiply;
 
 	[ConfigurationProperty]

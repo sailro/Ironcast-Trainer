@@ -3,9 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using Newtonsoft.Json;
 using TrainerKit.Features;
 using TrainerKit.Properties;
-using Newtonsoft.Json;
 
 namespace TrainerKit.Configuration;
 

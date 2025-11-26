@@ -39,7 +39,7 @@ internal class Commands : FeatureRenderer
 		}
 
 		RegisterPropertyDisplays();
-		
+
 		// Load default configuration
 		LoadSettings(false);
 		SetupWindowCoordinates();
@@ -73,7 +73,7 @@ internal class Commands : FeatureRenderer
 
 	protected override string GetPropertyDisplay(string propertyName)
 	{
-		return PropertyDisplays.TryGetValue(propertyName, out var value) 
+		return PropertyDisplays.TryGetValue(propertyName, out var value)
 			? value
 			: $"!! [{propertyName}] !!"; // missing translation in Strings.resx
 	}

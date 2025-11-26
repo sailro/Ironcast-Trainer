@@ -10,7 +10,7 @@ internal class GetScraps : TriggerFeature
 	public override string Name => Strings.FeatureGetScrapsName;
 	public override string Description => Strings.FeatureGetScrapsDescription;
 
-	[ConfigurationProperty(Order = 0)] 
+	[ConfigurationProperty(Order = 0)]
 	public override KeyCode Key { get; set; } = KeyCode.KeypadPlus;
 
 	[ConfigurationProperty]

@@ -10,7 +10,7 @@ internal class GetExperience : TriggerFeature
 	public override string Name => Strings.FeatureGetExperienceName;
 	public override string Description => Strings.FeatureGetExperienceDescription;
 
-	[ConfigurationProperty(Order = 0)] 
+	[ConfigurationProperty(Order = 0)]
 	public override KeyCode Key { get; set; } = KeyCode.KeypadPeriod;
 
 	[ConfigurationProperty]
