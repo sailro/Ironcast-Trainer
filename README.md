@@ -3,7 +3,8 @@
 [![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-lightgrey?logo=github&style=flat-square)](https://github.com/sponsors/sailro)
 
 A very simple trainer for the excellent [IronCast](http://store.steampowered.com/app/327670/) game.
-This trainer was built using [TrainerKit](https://github.com/sailro/TrainerKit)
+
+This trainer was built using [TrainerKit](https://github.com/sailro/TrainerKit).
 
 How to use the trainer:
 - Run load.bat to inject the trainer into the process (you do not need to copy files in a specific location).
