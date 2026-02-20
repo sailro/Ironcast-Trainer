@@ -8,6 +8,7 @@ This trainer was built using [TrainerKit](https://github.com/sailro/TrainerKit).
 
 How to use the trainer:
 - Run load.bat to inject the trainer into the process (you do not need to copy files in a specific location).
+- Use `RightAlt` for the configuration menu.
 - Use keypad + to add 1000 scraps
 - Use keypad * to add 1000 war assets
 - Use keypad . to add 10000 xp
